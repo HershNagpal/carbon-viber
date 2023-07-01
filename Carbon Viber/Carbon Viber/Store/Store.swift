@@ -9,14 +9,14 @@ import Foundation
 
 class Store: ObservableObject {
     let reducer: Reducer
-    @Published var state: State
+    @Published var appState: AppState
     
-    init(reducer: @escaping Reducer, state: State = State()) {
+    init(reducer: @escaping Reducer, state: AppState = AppState()) {
         self.reducer = reducer
-        self.state = state
+        self.appState = state
     }
     
     func dispatch(action: Action) {
-        state = reducer(state, action)
+        appState = reducer(appState, action)
     }
 }

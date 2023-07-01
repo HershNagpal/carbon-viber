@@ -6,9 +6,12 @@
 //
 
 import Foundation
+import MusicKit
 
 protocol Action { }
 
 struct PauseMedia: Action { }
 
 struct PlayMedia: Action { }
+
+struct SetLibraryPermission: Action { let value: MusicAuthorization.Status }

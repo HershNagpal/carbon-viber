@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3D27E692A4F989300003F24 /* CarbonViberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D27E682A4F989300003F24 /* CarbonViberApp.swift */; };
+		B3D27E6B2A4F989300003F24 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D27E6A2A4F989300003F24 /* AppView.swift */; };
+		B3D27E6D2A4F989400003F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D27E6C2A4F989400003F24 /* Assets.xcassets */; };
+		B3D27E702A4F989400003F24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D27E6F2A4F989400003F24 /* Preview Assets.xcassets */; };
+		B3D27E852A4F9ADE00003F24 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D27E812A4F9ADE00003F24 /* Reducer.swift */; };
+		B3D27E862A4F9ADE00003F24 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D27E822A4F9ADE00003F24 /* AppState.swift */; };
+		B3D27E872A4F9ADE00003F24 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D27E832A4F9ADE00003F24 /* Store.swift */; };
+		B3D27E882A4F9ADE00003F24 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D27E842A4F9ADE00003F24 /* Actions.swift */; };
+		B3D27E8E2A4F9AF400003F24 /* CurrentSongPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D27E8C2A4F9AF400003F24 /* CurrentSongPage.swift */; };
+		B3D27E8F2A4F9AF400003F24 /* StartupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D27E8D2A4F9AF400003F24 /* StartupPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3D27E652A4F989300003F24 /* Carbon Viber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carbon Viber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D27E682A4F989300003F24 /* CarbonViberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonViberApp.swift; sourceTree = "<group>"; };
+		B3D27E6A2A4F989300003F24 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		B3D27E6C2A4F989400003F24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3D27E6F2A4F989400003F24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3D27E812A4F9ADE00003F24 /* Reducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		B3D27E822A4F9ADE00003F24 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B3D27E832A4F9ADE00003F24 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B3D27E842A4F9ADE00003F24 /* Actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		B3D27E8C2A4F9AF400003F24 /* CurrentSongPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentSongPage.swift; sourceTree = "<group>"; };
+		B3D27E8D2A4F9AF400003F24 /* StartupPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D27E622A4F989300003F24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3D27E5C2A4F989300003F24 = {
+			isa = PBXGroup;
+			children = (
+				B3D27E672A4F989300003F24 /* Carbon Viber */,
+				B3D27E662A4F989300003F24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D27E662A4F989300003F24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D27E652A4F989300003F24 /* Carbon Viber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D27E672A4F989300003F24 /* Carbon Viber */ = {
+			isa = PBXGroup;
+			children = (
+				B3D27E8B2A4F9AF400003F24 /* Pages */,
+				B3D27E892A4F9AF000003F24 /* Components */,
+				B3D27E802A4F9ADE00003F24 /* Store */,
+				B3D27E682A4F989300003F24 /* CarbonViberApp.swift */,
+				B3D27E6A2A4F989300003F24 /* AppView.swift */,
+				B3D27E6C2A4F989400003F24 /* Assets.xcassets */,
+				B3D27E6E2A4F989400003F24 /* Preview Content */,
+			);
+			path = "Carbon Viber";
+			sourceTree = "<group>";
+		};
+		B3D27E6E2A4F989400003F24 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3D27E6F2A4F989400003F24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3D27E802A4F9ADE00003F24 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				B3D27E812A4F9ADE00003F24 /* Reducer.swift */,
+				B3D27E822A4F9ADE00003F24 /* AppState.swift */,
+				B3D27E832A4F9ADE00003F24 /* Store.swift */,
+				B3D27E842A4F9ADE00003F24 /* Actions.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		B3D27E892A4F9AF000003F24 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B3D27E8A2A4F9AF000003F24 /* Text */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B3D27E8A2A4F9AF000003F24 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		B3D27E8B2A4F9AF400003F24 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B3D27E8C2A4F9AF400003F24 /* CurrentSongPage.swift */,
+				B3D27E8D2A4F9AF400003F24 /* StartupPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D27E642A4F989300003F24 /* Carbon Viber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D27E732A4F989400003F24 /* Build configuration list for PBXNativeTarget "Carbon Viber" */;
+			buildPhases = (
+				B3D27E612A4F989300003F24 /* Sources */,
+				B3D27E622A4F989300003F24 /* Frameworks */,
+				B3D27E632A4F989300003F24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carbon Viber";
+			productName = "Carbon Viber";
+			productReference = B3D27E652A4F989300003F24 /* Carbon Viber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D27E5D2A4F989300003F24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B3D27E642A4F989300003F24 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B3D27E602A4F989300003F24 /* Build configuration list for PBXProject "Carbon Viber" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3D27E5C2A4F989300003F24;
+			productRefGroup = B3D27E662A4F989300003F24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D27E642A4F989300003F24 /* Carbon Viber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D27E632A4F989300003F24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D27E702A4F989400003F24 /* Preview Assets.xcassets in Resources */,
+				B3D27E6D2A4F989400003F24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D27E612A4F989300003F24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D27E872A4F9ADE00003F24 /* Store.swift in Sources */,
+				B3D27E6B2A4F989300003F24 /* AppView.swift in Sources */,
+				B3D27E692A4F989300003F24 /* CarbonViberApp.swift in Sources */,
+				B3D27E8E2A4F9AF400003F24 /* CurrentSongPage.swift in Sources */,
+				B3D27E8F2A4F9AF400003F24 /* StartupPage.swift in Sources */,
+				B3D27E882A4F9ADE00003F24 /* Actions.swift in Sources */,
+				B3D27E852A4F9ADE00003F24 /* Reducer.swift in Sources */,
+				B3D27E862A4F9ADE00003F24 /* AppState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3D27E712A4F989400003F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3D27E722A4F989400003F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3D27E742A4F989400003F24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Carbon Viber/Preview Content\"";
+				DEVELOPMENT_TEAM = S327B8WXV8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Carbon Viber uses your library to create playlists and show you statistics about your listening habits. All data is stored locally or on your iCloud account.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hersh.Carbon-Viber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3D27E752A4F989400003F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Carbon Viber/Preview Content\"";
+				DEVELOPMENT_TEAM = S327B8WXV8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Carbon Viber uses your library to create playlists and show you statistics about your listening habits. All data is stored locally or on your iCloud account.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hersh.Carbon-Viber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D27E602A4F989300003F24 /* Build configuration list for PBXProject "Carbon Viber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D27E712A4F989400003F24 /* Debug */,
+				B3D27E722A4F989400003F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D27E732A4F989400003F24 /* Build configuration list for PBXNativeTarget "Carbon Viber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D27E742A4F989400003F24 /* Debug */,
+				B3D27E752A4F989400003F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D27E5D2A4F989300003F24 /* Project object */;
+}

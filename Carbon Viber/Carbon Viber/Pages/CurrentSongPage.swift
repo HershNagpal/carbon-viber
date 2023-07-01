@@ -16,7 +16,7 @@ struct CurrentSongPage: View {
         let onPlay: () -> Void
     }
     
-    private func map(state: State) -> Props {
+    private func map(_ state: AppState) -> Props {
         Props(
             songPlaying: state.songPlaying,
             onPause: { store.dispatch(action: PauseMedia()) },
@@ -25,7 +25,7 @@ struct CurrentSongPage: View {
     }
     
     var body: some View {
-        let props = map(state: store.state)
+        let props = map(store.appState)
         
         VStack {
             if props.songPlaying {

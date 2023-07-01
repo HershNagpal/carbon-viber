@@ -8,8 +8,9 @@
 import Foundation
 import MusicKit
 
-struct State {
+struct AppState {
     var songPlaying: Bool = false
+    var libraryPermissionGranted: MusicAuthorization.Status = .notDetermined
 }
 
 
